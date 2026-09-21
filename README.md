@@ -107,9 +107,9 @@ attrition_ml_project/
 ├── Employee_Attrition_Scaler.pkl      # Fitted StandardScaler
 │
 ├── screenshots/
-│   ├── app.png                         # Application interface
-│   ├── input.png                       # Employee input interface
-│   └── prediction.png                  # Prediction result
+│   ├── app.png                         # Application interface in SS folder
+│   ├── input.png                       # Employee input interface in SS folder
+│   └── prediction.png                  # Prediction result in SS folder
 │
 └── .gitignore
 ```
@@ -127,18 +127,6 @@ The application then:
 3. Applies the previously fitted scaler.
 4. Passes the transformed data to the trained Logistic Regression model.
 5. Displays whether the employee is predicted to leave or stay.
-
-### Application Interface
-
-![Application Interface](screenshots/app.png)
-
-### Employee Input
-
-![Employee Input](screenshots/input.png)
-
-### Prediction Result
-
-![Prediction Result](screenshots/prediction.png)
 
 ---
 
